@@ -4,6 +4,6 @@ also hakkuuns idea ;)
 
 ## Usage
 
-GitHub Pages: WIP
+GitHub Pages: [https://df3lx.github.io/selfie_pose_proposer/](https://df3lx.github.io/selfie_pose_proposer/)
 
-just download the project and open the /src/index.html
+or just download the project and open the /src/index.html
