@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Selfi Pose Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Emoji Generator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Looking for a new Pose?</h1>
-        <h2>Try out the curated selection of poses!</h2>
+        <h1>Random Emoji Generator</h1>
         <div id="emoji">😀</div>
-        <button onclick="generateRandomEmoji()">Get Random Emoji</button>
+        <div class="controls">
+            <label for="emojiCount">Number of Emojis:</label>
+            <input type="number" id="emojiCount" value="1" min="1" max="10">
+            <button onclick="generateRandomEmoji()">Get Random Emojis</button>
+        </div>
     </div>
     <script src="backend.js"></script>
 </body>
